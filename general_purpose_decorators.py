@@ -32,3 +32,4 @@ def strict_type(check_args=True, check_return=True):
         return wrapper
 
     return decorator
+ 
