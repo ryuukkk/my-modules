@@ -1,3 +1,4 @@
+import collections
 import pickle
 import socket
 import struct
@@ -119,3 +120,5 @@ def handle_request(*items, wait_for_reply=True):
     except socket.error as err:
         print(err)
         sys.exit(1)
+
+main()
